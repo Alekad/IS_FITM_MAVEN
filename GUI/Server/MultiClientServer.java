@@ -22,7 +22,7 @@ public class MultiClientServer implements Runnable {
 
     String line;
 
-    public MultiClientServer(Socket csoc) {
+      public MultiClientServer(Socket csoc) {
         try {
             this.clientsocket = csoc;
             reader = new BufferedReader(new InputStreamReader(clientsocket.getInputStream()));

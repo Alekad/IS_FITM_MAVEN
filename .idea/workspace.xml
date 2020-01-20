@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="38cd471e-61a3-40da-bfe5-29d25ebf230f" name="Default Changelist" comment="">
+    <list default="true" id="38cd471e-61a3-40da-bfe5-29d25ebf230f" name="Default Changelist" comment="5">
+      <change afterPath="$PROJECT_DIR$/commands" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/ClientGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/GUI/ClientGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/MultiClientServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Server/MultiClientServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/ServerGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/Server/ServerGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +17,13 @@
   <component name="Git.Settings">
     <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1VZ8vwipnG3Tls7IHJCppNvAecN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -29,6 +40,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -41,12 +53,24 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.ServerGUI">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="App" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="IS_FITM_MAVEN" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientGUI (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GUI.ClientGUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GUI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,11 +104,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in IS_FITM_MAVEN" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IS_FITM_MAVEN" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/test.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.ServerGUI" />
+        <item itemvalue="JUnit.All in IS_FITM_MAVEN" />
+        <item itemvalue="Application.ClientGUI (1)" />
         <item itemvalue="Application.ClientGUI" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JAR Application.test.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -112,14 +150,35 @@
       <updated>1577449490752</updated>
       <workItem from="1577449497705" duration="3164000" />
       <workItem from="1577467348686" duration="2706000" />
-      <workItem from="1577475279845" duration="1876000" />
+      <workItem from="1577475279845" duration="2677000" />
+      <workItem from="1577478860640" duration="268000" />
+      <workItem from="1577479329064" duration="28000" />
+      <workItem from="1577514665673" duration="740000" />
+      <workItem from="1577519117369" duration="888000" />
+      <workItem from="1579417471798" duration="1345000" />
+      <workItem from="1579424115452" duration="1137000" />
+      <workItem from="1579426814696" duration="1574000" />
+      <workItem from="1579429429579" duration="1561000" />
+      <workItem from="1579431604547" duration="1681000" />
+      <workItem from="1579451112383" duration="1575000" />
+      <workItem from="1579453181956" duration="804000" />
+      <workItem from="1579491800923" duration="1529000" />
+      <workItem from="1579495737487" duration="1414000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="5" />
+    <option name="LAST_COMMIT_MESSAGE" value="5" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="400" y="22" key="#ClientGUI_(1)" timestamp="1579432302479">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="400" y="22" key="#ClientGUI_(1)/0.0.1366.728@0.0.1366.728" timestamp="1579432302479" />
     <state x="275" y="22" key="#Notifications" timestamp="1577472786648">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -128,29 +187,57 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577450626401" />
-    <state width="661" height="179" key="GridCell.Tab.0.bottom" timestamp="1577473191830">
+    <state x="430" y="210" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579432118405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577473191830" />
-    <state width="661" height="179" key="GridCell.Tab.0.center" timestamp="1577473191829">
+    <state x="430" y="210" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.728@0.0.1366.728" timestamp="1579432118405" />
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1579430923958">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577473191829" />
-    <state width="661" height="179" key="GridCell.Tab.0.left" timestamp="1577473191829">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1579430923958" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579496493373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577473191829" />
-    <state width="661" height="179" key="GridCell.Tab.0.right" timestamp="1577473191830">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579496493373" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579496493373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="661" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577473191830" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1577473035831">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579496493373" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579496493373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1577473035831" />
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1577467514832">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579496493373" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579496493373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577467514832" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579496493373" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1579425192045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579425192045" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1579425192045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1579425192045" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1579425192045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1579425192045" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1579425192045">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1579425192045" />
+    <state x="123" y="8" width="998" height="708" key="SettingsEditor" timestamp="1579418956022">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="123" y="8" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579418956022" />
+    <state x="530" y="279" key="VCS.ChangelistChooser" timestamp="1579430125286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="530" y="279" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1579430125286" />
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1579495744680">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579495744680" />
   </component>
 </project>

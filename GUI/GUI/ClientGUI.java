@@ -149,7 +149,7 @@ public class ClientGUI extends javax.swing.JFrame {
         setBounds(420, 120, 416, 357);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void cnctActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cnctActionPerformed
+       private void cnctActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cnctActionPerformed
         // TODO add your handling code here:
         if (!sip.getText().isEmpty() && !spt.getText().isEmpty()) {
             try {
@@ -162,7 +162,7 @@ public class ClientGUI extends javax.swing.JFrame {
                         writer = new PrintStream(soc.getOutputStream());
                         Thread recieve = new Thread(new Runnable() {
 
-                            @Override
+                                                      @Override
                             public void run() {
 
                                 try {
